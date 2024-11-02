@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/cannonBoltDigital/static/css/main.fc1f3838.css",
-    "main.js": "/cannonBoltDigital/static/js/main.18e5682f.js",
+    "main.css": "/cannonBoltDigital/static/css/main.9e97c721.css",
+    "main.js": "/cannonBoltDigital/static/js/main.400d5285.js",
     "static/js/453.419a5d54.chunk.js": "/cannonBoltDigital/static/js/453.419a5d54.chunk.js",
     "static/media/logo1.png": "/cannonBoltDigital/static/media/logo1.6fdb9ca401ad8813e2d1.png",
+    "static/media/fa-solid-900.ttf": "/cannonBoltDigital/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/banner.png": "/cannonBoltDigital/static/media/banner.3f20f148412c8c91a4a6.png",
+    "static/media/fa-brands-400.ttf": "/cannonBoltDigital/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/cannonBoltDigital/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/cannonBoltDigital/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/cannonBoltDigital/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/cannonBoltDigital/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/cannonBoltDigital/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/cannonBoltDigital/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/cannonBoltDigital/index.html",
-    "main.fc1f3838.css.map": "/cannonBoltDigital/static/css/main.fc1f3838.css.map",
-    "main.18e5682f.js.map": "/cannonBoltDigital/static/js/main.18e5682f.js.map",
+    "main.9e97c721.css.map": "/cannonBoltDigital/static/css/main.9e97c721.css.map",
+    "main.400d5285.js.map": "/cannonBoltDigital/static/js/main.400d5285.js.map",
     "453.419a5d54.chunk.js.map": "/cannonBoltDigital/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc1f3838.css",
-    "static/js/main.18e5682f.js"
+    "static/css/main.9e97c721.css",
+    "static/js/main.400d5285.js"
   ]
 }
