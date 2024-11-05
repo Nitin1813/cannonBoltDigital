@@ -35,6 +35,17 @@
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+  }
+  h2{
+    text-align: center ;
+    font-size: 50px !important;
+  }
+  .service-card:hover{
+    background-color: #A7BB3E;
+    color:#073453 ;
   }
   
   .offer-card, .service-card, .completion-card {

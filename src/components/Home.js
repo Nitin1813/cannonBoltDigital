@@ -2,6 +2,8 @@
 import React from "react";
 import "./Home.css";
 import Banner from '../Images/banner.png';
+import Footer from "./Footer";
+import Leadership from "./Leadership";
 
 const Home = () => {
   return (
@@ -93,6 +95,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Leadership />
     </div>
   );
 };

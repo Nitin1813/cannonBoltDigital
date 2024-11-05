@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
 
 .App-logo {
   height: 40vmin;
@@ -27,6 +30,10 @@
 .App-link {
   color: #61dafb;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 @keyframes App-logo-spin {
   from {
