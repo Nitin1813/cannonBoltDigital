@@ -5,18 +5,20 @@
     justify-content: center; /* Center all content in the navbar */
     align-items: center;
     padding: 15px 20px;
-    background-color: #A7BB3E;
+    background: rgb(7,52,83);
+    background: linear-gradient(90deg, rgba(7,52,83,1) 0%, rgba(167,187,62,1) 35%);
     color: #073453;
     position: sticky;
     top: 0;
     z-index: 1000;
     transition: all 0.3s ease; /* Smooth transition */
+    justify-content: flex-end;
   }
   
   .navbar-scrolled {
     padding: 10px 20px; /* Smaller padding */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Adds shadow effect */
-    background-color: #A7BB3E; /* Slightly darker shade */
+    background-color: #a7bb3e; /* Slightly darker shade */
   }
   
   .navbar-logo {
@@ -30,18 +32,27 @@
     border-radius: 50%;
     background-color: white;
   }
+  .navbar-title{
+    float:left;
+    font-family:serif;
+    margin-right: 200px;
+    font-weight: bold;
+    font-size: larger;
+  }
   
   .navbar-links {
     list-style: none;
     display: flex;
     gap: 20px;
     margin-left: 100px; /* Optional: Create some space for the logo */
+    
   }
   
   .navbar-links li a {
     color: #073453;
     text-decoration: none;
     font-size: 1em;
+    
   }
   
   .navbar-links li a:hover {

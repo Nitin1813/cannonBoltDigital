@@ -15,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         {/* Add other routes here */}
       </Routes>
+      
       <Footer />
     </Router>
   );

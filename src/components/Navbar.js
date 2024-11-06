@@ -18,6 +18,9 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${isScrolled ? "navbar-scrolled" : ""}`}>
+    <div className="navbar-title">
+      Cannonbolt Digital
+    </div>
       <div className="navbar-logo">
         <Link to="/">
           <img src={logo} alt="Cannonbolt Digital Logo" className="logo" />

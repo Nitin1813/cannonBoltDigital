@@ -1,27 +1,27 @@
 import React from 'react';
 import deepu from "../Images/deepu.png"
 import Nitin from "../Images/nitin.png"
-
+import './Leadership.css';
 const Leadership = () => {
   const teamMembers = [
     {
-      name: 'John Doe',
-      role: 'CEO',
-      description: 'Oversees company operations and strategic direction.',
+      name: 'Deepu',
+      role: 'Specialist' ,
+      description: 'Meta Ads, Social Media Marketing, Graphics Design and Video Editing.',
       image: `${deepu}`,
     },
     {
-      name: 'Jane Smith',
-      role: 'CTO',
-      description: 'Leads our tech team to drive innovation and product development.',
+      name: 'Nitin',
+      role: 'Specialist',
+      description: 'SEO, Web Designing',
       image: `${Nitin}`,
     },
-    {
-      name: 'Sam Wilson',
-      role: 'Head of Marketing',
-      description: 'Responsible for market strategies and brand awareness.',
-      image: '/path/to/image3.jpg',
-    },
+    // {
+    //   name: 'Sam Wilson',
+    //   role: 'Head of Marketing',
+    //   description: 'Responsible for market strategies and brand awareness.',
+    //   image: '/path/to/image3.jpg',
+    // },
     // Add more team members as needed
   ];
 
@@ -35,13 +35,13 @@ const Leadership = () => {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-lg overflow-hidden text-center p-6 w-64 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              className="bg-white our-leadership shadow-lg rounded-lg overflow-hidden text-center p-6 w-64 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
               <div className="overflow-hidden rounded-full w-32 h-32 mx-auto mb-4">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                  className="our-leadership-img w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-800">{member.name}</h3>

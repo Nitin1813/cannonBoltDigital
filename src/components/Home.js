@@ -4,6 +4,7 @@ import "./Home.css";
 import Banner from '../Images/banner.png';
 import Footer from "./Footer";
 import Leadership from "./Leadership";
+import OurServices from "./OurServices";
 
 const Home = () => {
   return (
@@ -95,6 +96,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <OurServices />
       <Leadership />
     </div>
   );
