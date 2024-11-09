@@ -41,9 +41,16 @@ const Services = () => {
         description: 'Ensure your digital assets are secure with our comprehensive services.',
       },
   ];
+  function viewMore(e){
+    console.log("Clicked " +e);
+    // var title2 = document.getElementById("title2");
+    // var title = document.getElementById("title");
+    // title.display = "Block";
+    // title2.display = "None";
+  }
 
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="bg-gray-100 py-12" id='OurServices'>
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Services</h2>
 
@@ -53,12 +60,12 @@ const Services = () => {
               key={index}
               className="bg-[#A7BB3E] shadow-lg rounded-lg p-6 text-center transition transform hover:scale-105"
             >
-              <div className="">
+              <div className="our-services-img">
                 {service.icon}
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
-              <p className="text-white">{service.description}</p>
-              <button className='our-services-submit' type='submit'>View More</button>
+              <p id='title' className="text-white">{service.description}</p>
+              <button className='our-services-submit' onClick={viewMore} type='submit'>View More</button>
             </div>
           ))}
         </div>

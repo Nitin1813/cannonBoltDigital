@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container ">
         
         {/* Contact Form */}
-        <div className='main-container'>
+        <div className='main-container' id='ContactUS'>
         <div className="first-container ">
           <h2 className="section ">Contact Us</h2>
           <form className="">

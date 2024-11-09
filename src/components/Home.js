@@ -5,6 +5,7 @@ import Banner from '../Images/banner.png';
 import Footer from "./Footer";
 import Leadership from "./Leadership";
 import OurServices from "./OurServices";
+import OurCompletion from "./OurCompletion";
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       </section>
 
       {/* Offers Section */}
-      <section className="offers">
+      {/* <section className="offers">
         <h2>Our Offers</h2>
         <div className="offer-cards">
           <div className="offer-card">
@@ -31,10 +32,10 @@ const Home = () => {
             <p>Detailed description of offer 3.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Services Section */}
-      <section className="services">
+      {/* <section className="services">
         <h2>Our Services</h2>
         <div className="service-cards">
           <div className="service-card">
@@ -50,25 +51,25 @@ const Home = () => {
             <p>Description of service 3.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Info Section */}
-      <section className="contact-info">
+      {/* <section className="contact-info">
         <h2>Contact Information</h2>
         <p>Address: 123 Digital Avenue, Suite 456, Tech City</p>
         <p>Email: contact@cannonboltdigital.com</p>
         <p>Phone: +1 (555) 123-4567</p>
-      </section>
+      </section> */}
 
       {/* Location Section */}
-      <section className="location">
+      {/* <section className="location">
         <h2>Our Location</h2>
         <p>Find us at our headquarters in Tech City or connect with us online.</p>
-        {/* Add Google Maps iframe or other location visuals here */}
-      </section>
+      
+      </section> */}
 
       {/* Timeline Section */}
-      <section className="timeline">
+      {/* <section className="timeline">
         <h2>Company Timeline</h2>
         <ul>
           <li><strong>2020:</strong> Company founded and launched first digital service.</li>
@@ -76,26 +77,9 @@ const Home = () => {
           <li><strong>2022:</strong> Opened second office in a major tech hub.</li>
           <li><strong>2023:</strong> Reached 10,000 customers and introduced new AI tools.</li>
         </ul>
-      </section>
+      </section> */}
 
-      {/* Completions Section */}
-      <section className="completions">
-        <h2>Our Completions</h2>
-        <div className="completion-cards">
-          <div className="completion-card">
-            <h3>Project A</h3>
-            <p>Overview of project A and its successful outcome.</p>
-          </div>
-          <div className="completion-card">
-            <h3>Project B</h3>
-            <p>Overview of project B and its successful outcome.</p>
-          </div>
-          <div className="completion-card">
-            <h3>Project C</h3>
-            <p>Overview of project C and its successful outcome.</p>
-          </div>
-        </div>
-      </section>
+    {/* <OurCompletion /> */}
       <OurServices />
       <Leadership />
     </div>

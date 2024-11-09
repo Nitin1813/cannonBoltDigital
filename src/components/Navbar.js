@@ -1,5 +1,7 @@
 // client/src/components/Navbar.js
 import React, { useState, useEffect } from "react";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from '../Images/logo1.png'; // Adjust the path to your logo image
@@ -27,12 +29,12 @@ const Navbar = () => {
         </Link>
       </div>
       <ul className="navbar-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/offers">Offers</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/admin">Admin</Link></li>
-        <li><Link to="/login">Login</Link></li>
+        <li><ScrollLink to="home" smooth={true} duration={500}>Home</ScrollLink></li>
+        <li><ScrollLink to="offers" smooth={true} duration={500}>Offers</ScrollLink></li>
+        <li><ScrollLink to="OurServices" smooth={true} duration={500}>Services</ScrollLink></li>
+        <li><ScrollLink to="ContactUS" smooth={true} duration={500}>Contact</ScrollLink></li>
+        <li><RouterLink to="/admin">Admin</RouterLink></li>
+        <li><RouterLink to="/login">Login</RouterLink></li>
       </ul>
     </nav>
   );
